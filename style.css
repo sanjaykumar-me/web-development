@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #d5ff40;
+}
+nav{
+    /* background-color: blue; */
+    padding: 60px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 100px;
+}
+nav h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+nav a{
+    font-size: 39px;
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+section{
+    /* background-color: red; */
+    padding: 60px 100px;
+}
+section .heroText1{
+    /* background-color: red; */
+     display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+.heroText1 h1{
+    font-size: 140px;
+    font-weight: 400;
+}
+.heroText2{
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+}
+.heroText2 h1{
+    font-size: 140px;
+    font-weight: 400;
+}
+.heroText2 p{
+    margin-top: 50px;
+    font-size: 24px;
+    margin-left: 250px;
+    text-align: center;
+}
+.heroText1 .video{
+    background-color: rgb(221, 204, 204);
+    width: 400px;
+    height: 80px;
+    position: absolute;
+    left: 500px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 150px;
+    /* background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.video img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 30px;
+}
